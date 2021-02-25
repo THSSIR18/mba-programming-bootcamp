@@ -1,0 +1,33 @@
+main{
+    width:80%
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+
+
+
+
+
+#pic_block{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background-image: url("../res/pic.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 100px;
+
+    float: left;
+}
+
+#general_info{
+    float: left;
+    margin-left: 30px
+}
+
+#headers > div,span{
+    display: inline-block;
+}
